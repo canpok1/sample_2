@@ -11,7 +11,9 @@ AddRememberTokenToUsers	db/migrate/20150124162109_add_remember_token_to_users.rb
 Application	config/application.rb	/^  class Application < Rails::Application$/;"	c	class:SampleApp
 ApplicationController	app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
 ApplicationHelper	app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+CreateMicroposts	db/migrate/20150221054527_create_microposts.rb	/^class CreateMicroposts < ActiveRecord::Migration$/;"	c
 CreateUsers	db/migrate/20150118043516_create_users.rb	/^class CreateUsers < ActiveRecord::Migration$/;"	c
+Micropost	app/models/micropost.rb	/^class Micropost < ActiveRecord::Base$/;"	c
 SampleApp	config/application.rb	/^module SampleApp$/;"	m
 SessionsController	app/controllers/sessions_controller.rb	/^class SessionsController < ApplicationController$/;"	c
 SessionsHelper	app/helpers/sessions_helper.rb	/^module SessionsHelper$/;"	m
@@ -27,6 +29,7 @@ change	db/migrate/20150118125426_add_index_to_users_email.rb	/^  def change$/;"	
 change	db/migrate/20150124120804_add_password_digest_to_users.rb	/^  def change$/;"	f	class:AddPasswordDigestToUsers
 change	db/migrate/20150124162109_add_remember_token_to_users.rb	/^  def change$/;"	f	class:AddRememberTokenToUsers
 change	db/migrate/20150211084736_add_admin_to_users.rb	/^  def change$/;"	f	class:AddAdminToUsers
+change	db/migrate/20150221054527_create_microposts.rb	/^  def change$/;"	f	class:CreateMicroposts
 contact	app/controllers/static_pages_controller.rb	/^  def contact$/;"	f	class:StaticPagesController
 correct_user	app/controllers/users_controller.rb	/^    def correct_user$/;"	f	class:UsersController
 create	app/controllers/sessions_controller.rb	/^  def create$/;"	f	class:SessionsController
